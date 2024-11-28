@@ -1,0 +1,88 @@
+/* Basic Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Body Styling */
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.8;
+    background-color: #f9f9f9;
+    color: #333;
+    padding: 20px;
+}
+
+/* Header Styling */
+h1 {
+    text-align: center;
+    color: #4c54af;
+    margin-bottom: 20px;
+}
+
+/* Paragraphs */
+p {
+    margin-bottom: 15px;
+    font-size: 16px;
+}
+
+/* Links */
+a {
+    color: #684caf;
+    text-decoration: none;
+}
+
+a:hover {
+    color: #392876;
+    text-decoration: underline;
+}
+
+/* Instagram Link Section */
+.instagram-link {
+    display: flex;
+    align-items: center;
+    margin-top: 20px;
+    background-color: #fff;
+    padding: 10px;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.instagram-link i {
+    margin-right: 10px;
+    color: #E1306C;
+    font-size: 1.8em;
+}
+
+.instagram-link a {
+    font-weight: bold;
+    color: #333;
+    font-size: 16px;
+}
+
+.instagram-link a:hover {
+    color: #E1306C;
+}
+
+/* Footer Styling */
+footer {
+    margin-top: 30px;
+    background-color: #7a60f0;
+    color: #fff;
+    padding: 10px 15px;
+    text-align: center;
+    border-radius: 8px;
+}
+
+footer p {
+    margin-bottom: 10px;
+}
+
+footer ul {
+    list-style: none;
+}
+
+footer li {
+    margin-bottom: 5px;
+}
